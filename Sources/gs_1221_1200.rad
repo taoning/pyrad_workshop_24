@@ -1,0 +1,25 @@
+# genssky 12 21 12 -a 37 -o 122 -m 120 -p ./Sources -n 16 
+#Cloud cover: 0
+#Ground reflectance: 0.2
+#Sky map resolution: 64
+
+void spectrum sunrad
+0
+0
+22 380 780 0.342 0.642 0.701 0.922 1.026 1.051 1.068 1.111 1.131 1.139 1.149 1.140 1.148 1.124 1.130 1.098 1.063 1.039 1.005 0.969 
+
+sunrad light solar
+0
+0
+3 6128380.0 6128380.0 6128380.0
+
+solar source sun
+0
+0
+4 0.021784 -0.876704 0.480537 0.533
+
+void specpict skyfunc
+5 noop ./Sources/out_sky.hsr . 'atan2(Dy,Dx)/PI+1' 'acos(Dz)/PI'
+0
+0
+
