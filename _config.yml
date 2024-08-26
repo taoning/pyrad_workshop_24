@@ -24,7 +24,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/taoning/pyrad_workshop_24
+  url: https://github.com/shirubana/pyrad_workshop_24
   path_to_book: tutorials  # Optional path to your book, relative to the repository root
   branch: development 
 
