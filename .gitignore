@@ -1,3 +1,6 @@
 .venv
 Matrices
 Octrees
+*.hdr
+*.amb
+*.oct
