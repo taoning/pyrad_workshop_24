@@ -1,3 +1,7 @@
 .venv
 Matrices
 Octrees
+*.hdr
+*.amb
+*.oct
+_build/
